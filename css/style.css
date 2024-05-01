@@ -1,0 +1,83 @@
+
+body {
+    background: url('../img/feu.jpg');
+    background-size: cover;
+    margin: 0; 
+    font-family: Arial, sans-serif; 
+}
+
+header {
+    text-align: center;
+    color: rgb(120, 36, 36);
+    background: rgb(244, 226, 204);
+    padding: 20px; 
+    margin: 0; 
+}
+h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+article{
+    display: flex;
+    justify-content: space-between;
+}
+.prix{
+    font-size: 30px; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+    
+}
+.choix{
+    border: 1px solid;
+    position: relative;
+    text-align: center;
+    background: rgb(250, 242, 231);
+    margin: 15px;
+    cursor: pointer;
+}
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 23px;
+}
+p{
+    font-family: bold;
+    font-size: 13px;
+}
+img{
+    padding: 0;
+    
+}
+#validation{
+    position: relative;
+    text-align: center;
+    margin-top: 50px;
+    
+}
+#bouton{
+    border: 1px solid;
+    border-radius: 100px;
+    padding: 15px 15px;
+    background: rgb(244, 226, 204);
+    color: rgb(120, 36, 36);
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#bouton:hover{
+    background: rgb(120, 36, 36);
+    color: rgb(244, 226, 204);
+}
+input[type="radio"] {                    
+    display: none;
+    
+}
+label{
+    display: block;
+    border: 1px solid;
+    text-align: center;
+    background: rgb(250, 242, 231);
+    cursor: pointer;
+    
+}
+input:checked + label{
+    background-color: rgba(165, 42, 42, 0.592);
+}
+
